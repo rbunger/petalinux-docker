@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 MAINTAINER z4yx <z4yx@users.noreply.github.com>
 
-# build with docker build --build-arg PETA_VERSION=2018.1 --build-arg PETA_RUN_FILE=petalinux-v2018.1-final-installer.run -t petalinux:2018.1 .
+# build with docker build --build-arg PETA_VERSION=2018.3 --build-arg PETA_RUN_FILE=petalinux-v2018.3-final-installer.run -t petalinux:2018.3 .
 
 ARG UBUNTU_MIRROR=mirror.tuna.tsinghua.edu.cn
 
