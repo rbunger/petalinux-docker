@@ -5,6 +5,7 @@ MAINTAINER z4yx <z4yx@users.noreply.github.com>
 #install dependences:
 RUN dpkg --add-architecture i386 && apt-get update && apt-get install -y \
     bc \
+    u-boot-tools \
     build-essential \
     sudo \
     tofrodos \
